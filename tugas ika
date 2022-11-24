@@ -1,0 +1,79 @@
+//Nama : Ika febriana
+//Nim : D0220532
+
+package Ika;
+
+Import java.util.Scanner;
+
+public class persegi{
+        public static void main (String [] args){
+           Scanner input = new Scanner (System.in);
+
+           int sisi, luas;
+           System.out.println("menghitung luas persegi");
+       System.out.println("masukkan sisi persegi :");
+       sisi=input.nextInt();
+  
+       luas = sisi*sisi;
+
+       System.out.println("luas persegi : " + luas);
+
+  }
+}
+
+
+
+
+
+
+//Nama : Ika febriana
+//Nim : D0220532
+
+package ika;
+
+import java.util.Scanner;
+
+public class lingkaran {
+        public static void main (String [] args){
+             Scanner input = new Scanner (System.in);
+
+              double luas, phi =3.14;
+              int r;
+
+              System.out.println("masukkan jari-jari :");
+             r = input.nextInt();
+             luas = phi*r*r;
+     
+             System.out.println.("luas lingkaran = " + luas);
+
+     }
+
+}
+
+
+
+
+
+//Nama : Ika febriana
+//Nim : D0220532
+
+package Ika;
+
+Import java.util.Scanner;
+
+public class persegi{
+        public static void main (String [] args){
+           Scanner input = new Scanner (System.in);
+
+           int a, t;
+           double luas;
+           System.out.println("masukkan alas");
+          a = input.nextInt();     System.out.println("masukkan tinggi :");
+          t=input.nextInt();
+  
+          luas = 0.5*a"t;
+
+       System.out.println("luas segitiga : " + luas);
+
+      }
+}
